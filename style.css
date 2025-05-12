@@ -30,7 +30,7 @@ body {
   flex-direction: column;
   background-color: #08849c36;
 
-  animation-duration: 2.5s;
+  animation-duration: 2s;
   animation-name: slideitop;
 }
 
