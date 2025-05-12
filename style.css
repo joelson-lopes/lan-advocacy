@@ -29,9 +29,9 @@ body {
   display: flex;
   flex-direction: column;
   background-color: #08849c36;
-
+/* 
   animation-duration: 2s;
-  animation-name: slideitop;
+  animation-name: slideitop; */
 }
 
 header {
@@ -148,6 +148,22 @@ main {
   justify-content: center;
   gap: 5%;
   margin-bottom: 3%;
+}
+
+.text-topology p{
+  text-align: left;
+  font-weight: 400;
+}
+
+b{
+  color: red;
+}
+strong{
+  color: var(--corverdeazulado4);
+}
+.mini-title{
+  color: black;
+  text-align: left;
 }
 
 h1 {
@@ -408,6 +424,11 @@ footer {
     font-size: 22px;
   }
 
+  .text-topology p{
+  text-align: left;
+  font-weight: 500;
+}
+
   .goals-grid {
     display: grid;
     grid-template-columns: 1fr;
@@ -497,6 +518,11 @@ footer {
   nav a {
     font-size: 14px;
   }
+
+    .text-topology p{
+  text-align: left;
+  font-weight: 500;
+}
 
   .goals-text {
     font-size: 14px;
