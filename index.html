@@ -203,8 +203,9 @@
 
 
     <footer>
-        <h5><a href="http://instagram.com/_yfckwn_">© <span id="loras">Loras.dev</span></a> ALL RIGHTS RESERVED - 2025 -
-            Projeto LAN para Escritório de Advocacia</h5>
+        <h5>
+            <a href="http://instagram.com/_yfckwn_">© <span id="loras">JOLSON-LOPES.dev</span></a> | Projeto LAN para Escritório de Advocacia 2025 | ALL RIGHTS RESERVED
+        </h5>
     </footer>
 
 
@@ -215,7 +216,6 @@
         function ongoing() {
             nav.classList.toggle('show');
 
-            // Alterna ícone
             if (nav.classList.contains('show')) {
                 span.innerText = "close";
             } else {
@@ -223,7 +223,6 @@
             }
         }
 
-        // Fecha o menu ao clicar fora
         document.addEventListener('click', function (event) {
             const isClickInsideNav = nav.contains(event.target);
             const isClickOnButton = span.contains(event.target);

@@ -445,6 +445,12 @@ footer {
     font-size: 14px;
   }
 
+
+  .bg{
+    width: 100vw;
+    height: auto;
+  }
+
   .text-topology {
     display: flex;
     flex-direction: column;
@@ -459,7 +465,7 @@ footer {
     background-color: var(--corverde5);
     width: 100%;
     position: absolute;
-    top: 30%;
+    top: 90%;
     left: 0;
     padding: 10px 0;
     transition: all 0.3s ease;
