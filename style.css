@@ -220,7 +220,7 @@ ul li {
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: #555;
   text-indent: 1cap;
 }
@@ -235,7 +235,7 @@ ul li {
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: left;
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: #555;
   text-indent: 1cap;
 }
@@ -247,7 +247,7 @@ p .goals-textr {
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: left;
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: #555;
   text-indent: 1cap;
   text-align: center;
