@@ -3,18 +3,14 @@
 @import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-solid-straight/css/uicons-solid-straight.css');
 @import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-brands/css/uicons-brands.css');
 
-
 :root {
-  --coramarela1: #FFD028;
-  --corverdetunado2: #047E6A;
-  --corverdemilitar3: #2F8C5C;
-  --corverdeazulado4: #0C8169;
-  --corverde5: #327F54;
+  --novacor1:#1f3b73;
+  --novacinza2: #D4D7DD;
 }
 
 ::selection {
   padding: 5px;
-  background-color: var(--coramarela1);
+  background-color: var(--novacor1);
 }
 
 * {
@@ -40,7 +36,7 @@ header {
   align-items: center;
   justify-content: center;
   text-align: center;
-  background-image: linear-gradient(to top right, var(--corverde5), var(--coramarela1));
+  background-image: linear-gradient(to top right, #1F3B73, #d4d7dd);
   padding: 10px;
   margin-bottom: 5%;
 }
@@ -156,20 +152,20 @@ main {
 }
 
 b {
-  color: red;
+  font-weight: 500;
 }
 
 strong {
-  color: var(--corverdeazulado4);
+  color: var(--novacor1);
 }
 
 .mini-title {
-  color: black;
+  color: var(--novacor1);
   text-align: left;
 }
 
 h1 {
-  color: var(--corverdemilitar3);
+  color: var(--novacor1);
   text-align: center;
   margin-bottom: 2%;
 }
@@ -221,7 +217,7 @@ ul li {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
   font-size: 1rem;
-  color: #555;
+  color: var(--novacor1);
   text-indent: 1cap;
 }
 .goals-text #title-o{
@@ -254,12 +250,12 @@ p .goals-textr {
 }
 
 #resumo{
-  color: var(--corverdeazulado4);
+  color: var(--novacor1);
 }
 
 .budget{
-color: black;
-font-weight: 400;
+color: var(--novacor1);
+font-weight: 500;
 }
 
 .goals-grid {
@@ -272,7 +268,7 @@ font-weight: 400;
 details {
   cursor: pointer;
 
-  color: var(--corverdeazulado4);
+  color: var(--novacor1);
   text-align: center;
 }
 
@@ -365,8 +361,24 @@ h5 {
   text-align: center;
 }
 
+.bg {
+  background-color: white;
+  border-left: 10px solid var(--novacor1);
+}
 
+header {
+  background-color: var(--novacor1);
+}
 
+nav a {
+  font-weight: 500;
+}
+
+footer {
+  background-color: var(--novacinza2);
+  color: black;
+  font-weight: 500;
+}
 @keyframes slideitop {
   from {
     opacity: 0;
@@ -390,6 +402,7 @@ h5 {
     transform: translateY(0);
   }
 }
+
 
 @media (max-width: 768px) {
   header {
@@ -416,26 +429,6 @@ h5 {
     gap: 10px;
   }
 }
-
-.bg {
-  background-color: white;
-  border-left: 10px solid var(--corverdetunado2);
-}
-
-header {
-  background-color: var(--corverdeazulado4);
-}
-
-nav a {
-  font-weight: 500;
-}
-
-footer {
-  background-color: var(--coramarela1);
-  color: black;
-  font-weight: 500;
-}
-
 
 @media (max-width:850px) {
 
@@ -525,7 +518,7 @@ footer {
   nav {
     display: none;
     flex-direction: column;
-    background-color: var(--corverde5);
+    background-color: var(--novacor1);
     width: 100%;
     position: absolute;
     top: 90%;
