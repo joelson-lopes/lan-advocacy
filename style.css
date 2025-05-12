@@ -307,7 +307,7 @@ details {
 footer {
   display: flex;
   justify-content: center;
-  padding: 20px;
+  padding: 10px;
 }
 
 footer a {
@@ -392,7 +392,6 @@ footer {
   background-color: var(--coramarela1);
   color: black;
   font-weight: 500;
-  border-radius: 10px;
 }
 
 
