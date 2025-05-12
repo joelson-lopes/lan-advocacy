@@ -36,7 +36,7 @@ header {
   align-items: center;
   justify-content: center;
   text-align: center;
-  background-image: linear-gradient(to top right, #1F3B73, #d4d7dd);
+  background-image: linear-gradient(to left, #1F3B73, #d4d7dd);
   padding: 10px;
   margin-bottom: 5%;
 }
