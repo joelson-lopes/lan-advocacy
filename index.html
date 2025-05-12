@@ -16,7 +16,7 @@
 <body>
     <header>
         <div class="header-left-center">
-            <img src="assets/images/celestino-logotipo.png" alt="Logo" class="logotipo">
+            <img src="assets/images/celestino-logotipo.png" alt="Logo" class="logotipo" loading="lazy">
             <h2>repúplica de angola</h2>
             <h2>ministério da educação</h2>
             <h2>complexo escolar privado nataniel celestino</h2>
@@ -24,10 +24,11 @@
 
         <nav>
             <a href="#introducao" class="navbar-list-a">Introdução</a>
-            <a href="#desenvolvimento" class="navbar-list-a">Desenvolvimento</a>
+            <!-- <a href="#desenvolvimento" class="navbar-list-a">Desenvolvimento</a> -->
             <a href="#objetivos" class="navbar-list-a">Objetivos</a>
             <a href="#planejamento" class="navbar-list-a">PS</a>
             <a href="#topologias" class="navbar-list-a">Topologia</a>
+            <a href="#orcamento-de-rede" class="navbar-list-a">OR</a>
             <a href="#equipamentos" class="navbar-list-a">EN</a>
             <a href="#conclusao" class="navbar-list-a">Conclusão</a>
         </nav>
@@ -40,26 +41,23 @@
 
             <div class="text-bg1">
                 <p>Com o avanço da tecnologia e a digitalização de processos jurídicos, <br>
-                    os escritórios de advocacia precisam de uma infraestrutura de rede eficiente, <br>
+                    os escritórios de advocacia precisam de uma infraestrutura de rede eficiente, 
                     segura e escalável. Um plano de rede local (LAN) bem estruturado permite uma melhor gestão das
-                    informações, facilita a comunicação interna <br>
+                    informações, facilita a comunicação interna
                     e protege dados sensíveis dos clientes. <br> <br>
                     Este projeto visa o planejamento e implantação de uma rede LAN para um escritório de advocacia
                     moderno, garantindo comunicação eficiente, segurança de dados e conectividade entre os
                     departamentos.</p>
-                <img src="assets/images/LAN.png" alt="Ilustração LAN" class="carousel-Lan">
+                <img src="assets/images/LAN.png" alt="Ilustração LAN" class="carousel-Lan" loading="lazy">
             </div>
         </section>
 
         <section id="desenvolvimento" class="bg">
-            <h1 id="maintitle2"><i class="fi fi-tr-career-growth"></i> Desenvolvimento</h1>
+            <!-- <h1 id="maintitle2"><i class="fi fi-tr-career-growth"></i> Estrutura</h1> -->
 
             <div class="text-bg1">
                 <img src="assets/images/planta-de-um-escritório.png" alt="Ilustração LAN" class="bg1-image">
                 <p><strong>Projeto da Topologia da Rede Local</strong> <br>
-                    Para este escritório, a topologia em estrela é a mais adequada. <br>
-                    Nessa configuração, todos os dispositivos se conectam a um switch central, <br>
-                    que por sua vez se conecta ao roteador que fornece acesso à internet. <br> <br>
 
                     Essa topologia facilita a gestão e a expansão da rede. <br>
                     O roteador principal ficará na sala técnica ou em um local seguro. <br>
@@ -85,16 +83,18 @@
                 simultaneamente possa chegar a 20 unidades. A rede precisa suportar transferência rápida de
                 arquivos, acesso a sistemas jurídicos online e videoconferências sem interrupções.</p> <br>
 
-                
-                <details>
-                    
-                    <br>
+
+            <details>
+
+                <br>
                 <section id="objetivos">
                     <h1 id="subtitulo"><i class="fi fi-tr-bullseye-arrow"></i> Objetivos</h1>
                     <p class="goals-text"><span class="material-symbols-outlined">check_circle</span> O <strong>objetivo
                             geral</strong> de um projeto de rede para um escritório de advocacia é garantir que a
                         infraestrutura de rede seja robusta, segura, eficiente e capaz de suportar as necessidades de
                         comunicação e compartilhamento de informações do escritório.</p> <br>
+
+                    <h1 id="subtitulo2"><i class="fi fi-tr-bullseye-arrow"></i> Objetivos Específicos</h1>
                     <div class="goals-grid">
                         <p class="goals-text"><span class="material-symbols-outlined">check_circle</span> Facilitar o
                             compartilhamento de documentos jurídicos.</p>
@@ -178,6 +178,68 @@
                     </div>
                 </section>
 
+                <section id="orcamento-de-rede">
+
+                    <h1 id="subtitulo"><i class="fi fi-tr-checklist-task-budget"></i> Orçamento para Implementação de Rede Local (LAN)</h1>
+                    <div class="goals-grid">
+
+                        <p class="goals-text2">
+                            1. <strong id="title-o">Levantamento e Projecto</strong> <br> <br>
+                            <strong class="budget">Visita técnica e levantamento de necessidades:</strong> 150.000 AKZ <br>
+                            <strong class="budget">Projecto de rede (topologia e especificações):</strong> 200.000 AKZ <br>
+                            <b>Subtotal:</b> 350.000 AKZ <br>
+                        </p>
+
+                        <p class="goals-text2">
+                            2. <strong id="title-o">Equipamentos de Rede:</strong> <br> <br>
+                            <strong class="budget">Switch Gerenciável 24 portas Gigabit</strong> (ex: TP-Link, Cisco SMB): 1 x 350.000 AKZ = 350.000 AKZ <br>
+                            <strong class="budget">Roteador empresarial</strong> com suporte a VPN (ex: MikroTik, TP-Link): 1 x 250.000 AKZ = 250.000 AKZ <br>
+                            <strong class="budget">Access Points Wi-Fi 6</strong> para cobertura total (ex: Ubiquiti, TP-Link): 3 x 200.000 AKZ = 600.000 AKZ <br>
+                             <strong class="budget">Rack de 9U com ventilação e bandejas:</strong> 1 x 300.000 AKZ = 300.000 AKZ <br>
+                            <strong class="budget">Patch Panel 24 portas + Organizadores:</strong> 1 x 150.000 AKZ = 150.000 AKZ <br>
+                            <b>Subtotal:</b> 1.650.000 AKZ
+                        </p>
+
+                        <p class="goals-text2">
+                            3. <strong id="title-o">Materiais:</strong> <br> <br>
+                            <strong class="budget">Cabo de Rede Cat6 (rolo 305m):</strong>  2 x 180.000 AKZ = 360.000 AKZ <br>
+                            <strong class="budget">Conectores RJ45, tomadas de parede, caixas de embutir:</strong> 200.000 AKZ <br>
+                            <strong class="budget">Dutos e canaletas (PVC):</strong>  250.000 AKZ <br>
+                            <b>Subtotal:</b> 810.000 AKZ <br>
+                        </p>
+
+                        <p class="goals-text2">
+                            4.<strong id="title-o">Mão-de-Obra</strong> <br> <br>
+                            <strong class="budget">Instalação e passagem de cabos (para 20 pontos de rede):</strong> 20 x 25.000 AKZ = 500.000 AKZ <br>
+                            <strong class="budget">Configuração de equipamentos (roteador, switch, APs):</strong> 300.000 AKZ <br>
+                            <strong class="budget">Teste e certificação dos pontos de rede:</strong> 200.000 AKZ <br>
+                            <b>Subtotal:</b> 1.000.000 AKZ <br>
+                        </p>
+
+                        <p class="goals-text2">
+                            5.<strong id="title-o">Serviços Adicionais (Opcional)</strong> <br> <br>
+                            <strong class="budget">Configuração de servidor de ficheiros simples (NAS ou Windows Server):</strong> 500.000 AKZ <br>
+                            <strong class="budget">Contrato de manutenção anual:</strong> <br>
+                            <b>Subtotal (opcional):</b> 1.100.000 AKZ <br>
+                        </p> <br>
+
+                        <p class="goals-text-r">
+                            <b id="resumo">Resumo:</b>
+                            Item Valor (AKZ)
+                            Levantamento e Projecto 350.000
+                            Equipamentos de Rede 1.650.000
+                            Materiais 810.000
+                            Mão-de-Obra 1.000.000
+                            Total Geral (Sem adicionais) 3.810.000
+                            Total com Serviços Adicionais 4.910.000
+                            Observações:
+                            Orçamento válido por 30 dias.
+                            Equipamentos possuem garantia de 1 ano.
+                            Os preços podem variar conforme o câmbio USD/AKZ
+                            O pagamento será feito em duas fases: 50% na adjudicação e 50% na entrega.
+                        </p>
+                    </div>
+                </section>
 
                 <section id="topologias">
 
@@ -187,7 +249,8 @@
                             onde todos os dispositivos estão conectados a um switch central, <br>
                             garantindo performance e facilidade de manutenção.</p>
 
-                        <img src="assets/images/esquema-estrela.png" alt="Topologia Estrela" class="topology"> <br>
+                        <img src="assets/images/esquema-estrela.png" alt="Topologia Estrela" class="topology"
+                            loading="lazy"> <br>
                     </div>
 
                     <p>A <strong>topologia de rede</strong> em estrela, também conhecida como topologia estelar, <br>
@@ -213,11 +276,11 @@
                         <strong>Eficiência:</strong> A comunicação é mais eficiente, pois os dados são encaminhados
                         diretamente entre
                         os dispositivos através do dispositivo central. <br> <br>
-                        
+
                         <strong>Facilidade de Gerenciamento:</strong> É fácil identificar e resolver problemas, pois a
                         falha de um
                         dispositivo não afeta o funcionamento dos outros. <br> <br>
-                        
+
                         <strong>Escalabilidade:</strong> É fácil adicionar ou remover dispositivos sem afetar o restante
                         da rede. <br> <br>
 
@@ -231,7 +294,7 @@
                         <b>Custo:</b> Pode ser mais cara do que outras topologias, como a topologia em barramento,
                         devido
                         ao uso de mais cabos e do dispositivo central. <br> <br>
-                        
+
                         <b>Limitado por Portas:</b> O número de dispositivos que podem ser conectados é limitado pelas
                         portas do dispositivo central. <br> <br>
                         <strong class="mini-title">Exemplos:</strong>
@@ -257,7 +320,7 @@
                 </section>
             </details>
         </section>
-        
+
         <section id="conclusao" class="bg">
             <h1><i class="fi fi-tr-hourglass-end"></i> Conclusão</h1>
             <div class="text-bg3">
@@ -270,7 +333,7 @@
                     Com esta infraestrutura, o escritório terá uma rede eficiente, <br>
                     segura e preparada para o crescimento futuro, atendendo todas as demandas jurídicas com agilidade.
                 </p>
-                <img src="assets/images/image.png" alt="Sucesso" class="carousel-image">
+                <img src="assets/images/image.png" alt="Sucesso" class="carousel-image" loading="lazy">
             </div>
         </section>
     </main>
@@ -278,7 +341,8 @@
 
     <footer>
         <h5>
-            <a href="http://joelson-lopes.github.io/joloras-port/">© <span id="loras">JOLSON-LOPES.dev</span></a> | Projeto LAN para
+            <a href="http://joelson-lopes.github.io/joloras-port/">© <span id="loras">JOLSON-LOPES.dev</span></a> |
+            Projeto LAN para
             Escritório de Advocacia 2025 | ALL RIGHTS RESERVED
         </h5>
     </footer>

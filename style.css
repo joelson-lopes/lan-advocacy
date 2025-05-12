@@ -177,6 +177,9 @@ h1 {
 #subtitulo {
   text-align: center;
 }
+#subtitulo2 {
+  text-align: center;
+}
 
 h2 {
   font-size: 1rem;
@@ -206,7 +209,7 @@ ul {
 
 ul li {
   margin-bottom: 10px;
-  font-size: 1rem;
+  font-size: 0.9rem;
   color: #555;
 }
 
@@ -217,9 +220,46 @@ ul li {
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
-  font-size: 1rem;
+  font-size: 0.9rem;
   color: #555;
   text-indent: 1cap;
+}
+.goals-text #title-o{
+  display: inline;
+  text-align: center;
+}
+.goals-text2 {
+  display: inline;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  font-size: 0.9rem;
+  color: #555;
+  text-indent: 1cap;
+}
+
+p .goals-textr {
+  display: inline;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  font-size: 0.9rem;
+  color: #555;
+  text-indent: 1cap;
+  text-align: center;
+}
+
+#resumo{
+  color: var(--corverdeazulado4);
+}
+
+.budget{
+color: black;
+font-weight: 400;
 }
 
 .goals-grid {
@@ -238,7 +278,8 @@ details {
 
 #objetivos,
 #topologias,
-#equipamentos {
+#equipamentos,
+#orcamento-de-rede {
   padding: 10px;
   width: 100%;
   height: auto;
