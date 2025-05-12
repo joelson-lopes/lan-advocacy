@@ -29,9 +29,8 @@ body {
   display: flex;
   flex-direction: column;
   background-color: #08849c36;
-/* 
   animation-duration: 2s;
-  animation-name: slideitop; */
+  animation-name: slideitop;
 }
 
 header {
@@ -150,18 +149,20 @@ main {
   margin-bottom: 3%;
 }
 
-.text-topology p{
+.text-topology p {
   text-align: left;
   font-weight: 400;
 }
 
-b{
+b {
   color: red;
 }
-strong{
+
+strong {
   color: var(--corverdeazulado4);
 }
-.mini-title{
+
+.mini-title {
   color: black;
   text-align: left;
 }
@@ -424,10 +425,10 @@ footer {
     font-size: 22px;
   }
 
-  .text-topology p{
-  text-align: left;
-  font-weight: 500;
-}
+  .text-topology p {
+    text-align: left;
+    font-weight: 500;
+  }
 
   .goals-grid {
     display: grid;
@@ -467,7 +468,7 @@ footer {
   }
 
 
-  .bg{
+  .bg {
     width: 100vw;
     height: auto;
   }
@@ -519,10 +520,10 @@ footer {
     font-size: 14px;
   }
 
-    .text-topology p{
-  text-align: left;
-  font-weight: 500;
-}
+  .text-topology p {
+    text-align: left;
+    font-weight: 500;
+  }
 
   .goals-text {
     font-size: 14px;
