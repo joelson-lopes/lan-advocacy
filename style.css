@@ -11,6 +11,7 @@
 ::selection {
   padding: 5px;
   background-color: var(--novacor1);
+  color: white;
 }
 
 * {
@@ -36,9 +37,12 @@ header {
   align-items: center;
   justify-content: center;
   text-align: center;
-  background-image: linear-gradient(to left, #1F3B73, #d4d7dd);
+  background-image: linear-gradient(to right, #1F3B73, #d4d7dd);
   padding: 10px;
   margin-bottom: 5%;
+
+  position: sticky;
+  top: -30%;
 }
 
 .header-left-center {
@@ -66,14 +70,28 @@ nav {
 
 .navbar-list-a {
   color: white;
-  font-size: 1rem;
+  font-size: 0.8rem;
   font-weight: 400;
 
   text-transform: capitalize;
   text-decoration: none;
 }
-
 .navbar-list-a:hover {
+  color: #f0f0f0;
+  transition: all ease 0.5s;
+  transform: translateY(-15%);
+}
+
+.navbar-list-a1 {
+  color: white;
+  font-size: 0.8rem;
+  font-weight: 400;
+  cursor: pointer;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+.navbar-list-a1:hover {
   color: #f0f0f0;
   transition: all ease 0.5s;
   transform: translateY(-15%);
@@ -180,9 +198,13 @@ h1 {
 #subtitulo2 {
   text-align: center;
 }
+#subtitulo3 {
+  text-align: center;
+  margin-bottom: 2%;
+}
 
 h2 {
-  font-size: 1rem;
+  font-size: 0.9rem;
   text-decoration: none;
   text-transform: capitalize;
   color: white;
@@ -276,6 +298,7 @@ details {
   text-align: center;
 }
 
+
 #objetivos,
 #topologias,
 #equipamentos,
@@ -292,6 +315,38 @@ details {
 
 }
 
+#integrantes{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+
+  margin-bottom: 5%;
+  background-color: #fff;
+  width: 50vw;
+  height: auto;
+}
+
+ .goals-grid2 ul{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5%;
+}
+
+.goals-text2{
+  display: inline;
+  padding: 10px 25px 10px 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-size: 1rem;
+  color: var(--novacor1);
+  text-indent: 1cap;
+}
+
 #objeticvos .text-bg,
 #topologias .text-bg2,
 #equipamentos .text-eq {
@@ -302,6 +357,7 @@ details {
   gap: 5%;
 }
 
+#integrantes .goals-grid li,  
 #desenvolvimento .text-bg p,
 #objeticvos .text-bg p,
 #topologias .text-bg p,
@@ -383,6 +439,7 @@ footer {
   color: black;
   font-weight: 500;
 }
+
 @keyframes slideitop {
   from {
     opacity: 0;
@@ -505,6 +562,10 @@ footer {
     font-size: 14px;
   }
 
+  #integrantes{
+    width: 95%;
+    height: auto;
+  }
 
   .bg {
     width: 100vw;

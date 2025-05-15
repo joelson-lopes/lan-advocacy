@@ -24,7 +24,6 @@
 
         <nav>
             <a href="#introducao" class="navbar-list-a">Introdução</a>
-            <!-- <a href="#desenvolvimento" class="navbar-list-a">Desenvolvimento</a> -->
             <a href="#objetivos" class="navbar-list-a">Objetivos</a>
             <a href="#planejamento" class="navbar-list-a">PS</a>
             <a href="#topologias" class="navbar-list-a">Topologia</a>
@@ -36,18 +35,17 @@
     </header>
 
     <main>
+
         <section id="introducao" class="bg">
-            <h1 id="maintitle2">Introdução</h1>
+            <!-- <h1 id="maintitle2">Introdução</h1> -->
 
             <div class="text-bg1">
                 <p>Com o avanço da tecnologia e a digitalização de processos jurídicos, <br>
-                    os escritórios de advocacia precisam de uma infraestrutura de rede eficiente, 
+                    os escritórios de advocacia precisam de uma infraestrutura de rede eficiente,
                     segura e escalável. Um plano de rede local (LAN) bem estruturado permite uma melhor gestão das
                     informações, facilita a comunicação interna
                     e protege dados sensíveis dos clientes. <br> <br>
-                    Este projeto visa o planejamento e implantação de uma rede LAN para um escritório de advocacia
-                    moderno, garantindo comunicação eficiente, segurança de dados e conectividade entre os
-                    departamentos.</p>
+                    </p>
                 <img src="assets/images/LAN.png" alt="Ilustração LAN" class="carousel-Lan" loading="lazy">
             </div>
         </section>
@@ -56,32 +54,34 @@
             <!-- <h1 id="maintitle2"><i class="fi fi-tr-career-growth"></i> Estrutura</h1> -->
 
             <div class="text-bg2">
-                
-                <br> <h1 id="maintitle2"> Análise das Necessidades Tecnológicas do Escritório</h1>
-                <p>O primeiro passo para a criação de uma rede eficiente é entender a estrutura do escritório.
-                Suponhamos um escritório médio, com 5 advogados, 2 estagiários, 1 recepcionista e 1 assistente
-                administrativo. Isso resulta em pelo menos 9 estações de trabalho fixas. <br> Além disso, é preciso
-                considerar dispositivos móveis (celulares e notebooks), impressoras em rede, e um servidor para
-                armazenamento centralizado de documentos. <br> Estima-se que o total de dispositivos conectados
-                simultaneamente possa chegar a 20 unidades. A rede precisa suportar transferência rápida de
-                arquivos, acesso a sistemas jurídicos online e videoconferências sem interrupções.</p> <br>
-            </div> 
-            
-            
-            <h1 id="ptrl"><strong id="ptrl">Projeto da Topologia da Rede Local</strong></h1> 
-            <p>Essa topologia facilita a gestão e a expansão da rede. <br>
-                    O roteador principal ficará na sala técnica ou em um local seguro. <br>
-                    Um switch gerenciável com pelo menos 24 portas garantirá sobra para futuros dispositivos. <br>
-                    Pontos de acesso Wi-Fi estrategicamente posicionados garantirão cobertura para toda a área do
-                    escritório, <br> incluindo a recepção e salas de reunião. <br>
-                    A rede cabeada será usada para estações de trabalho fixas e o servidor, garantindo maior
-                    estabilidade e velocidade. <br>
-                    Dispositivos móveis e visitantes usarão uma rede Wi-Fi separada <br>
-                    para manter a segurança.
-                </p> <br>
 
-                <div class="text-bg2"><img src="assets/images/planta-de-um-escritório.png" alt="Ilustração LAN" class="bg1-image"> <br></div> <br>
-                
+                <br>
+                <h1 id="maintitle2"> Análise das Necessidades Tecnológicas do Escritório</h1>
+                <p>O primeiro passo para a criação de uma rede eficiente é entender a estrutura do escritório.
+                    Suponhamos um escritório médio, com 5 advogados, 2 estagiários, 1 recepcionista e 1 assistente
+                    administrativo. Isso resulta em pelo menos 9 estações de trabalho fixas. <br> Além disso, é preciso
+                    considerar dispositivos móveis (celulares e notebooks), impressoras em rede, e um servidor para
+                    armazenamento centralizado de documentos. <br> Estima-se que o total de dispositivos conectados
+                    simultaneamente possa chegar a 20 unidades. A rede precisa suportar transferência rápida de
+                    arquivos, acesso a sistemas jurídicos online e videoconferências sem interrupções.</p> <br>
+            </div>
+
+
+            <h1 id="ptrl"><strong id="ptrl">Projeto da Topologia da Rede Local</strong></h1>
+            <p>Essa topologia facilita a gestão e a expansão da rede. <br>
+                O roteador principal ficará na sala técnica ou em um local seguro. <br>
+                Um switch gerenciável com pelo menos 24 portas garantirá sobra para futuros dispositivos. <br>
+                Pontos de acesso Wi-Fi estrategicamente posicionados garantirão cobertura para toda a área do
+                escritório, <br> incluindo a recepção e salas de reunião. <br>
+                A rede cabeada será usada para estações de trabalho fixas e o servidor, garantindo maior
+                estabilidade e velocidade. <br>
+                Dispositivos móveis e visitantes usarão uma rede Wi-Fi separada <br>
+                para manter a segurança.
+            </p> <br>
+
+            <div class="text-bg2"><img src="assets/images/planta-de-um-escritório.png" alt="Ilustração LAN"
+                    class="bg1-image"> <br></div> <br>
+
             <details>
 
                 <br>
@@ -181,10 +181,10 @@
                     <h1 id="subtitulo"><i class="fi fi-tr-sitemap"></i> Topologia da Rede</h1>
                     <div class="text-topology">
                         <p>Optamos por uma topologia estrela, <br>
-                            onde todos os dispositivos estão conectados a um switch central, <br>
+                            onde todos os dispositivos estão conectados a um Switch Gigabit central, <br>
                             garantindo performance e facilidade de manutenção.</p>
 
-                        <img src="assets/images/esquema-estrela.png" alt="Topologia Estrela" class="topology"
+                        <img src="assets/images/topologia-de-rede-em-estrela.png" alt="Topologia Estrela" class="topology"
                             loading="lazy"> <br>
                     </div>
 
@@ -246,7 +246,7 @@
                         <ul>
                             <li>1x Servidor de arquivos e backup</li>
                             <li>2x Switches Gigabit</li>
-                            <li>10x Computadores para advogados</li>
+                            <li>8x Computadores para advogados</li>
                             <li>2x Impressoras de rede</li>
                             <li>1x Roteador com firewall integrado</li>
                             <li>Cabeamento estruturado Cat6</li>
@@ -256,61 +256,74 @@
 
                 <section id="orcamento-de-rede">
 
-                    <h1 id="subtitulo"><i class="fi fi-tr-checklist-task-budget"></i> Orçamento para Implementação de Rede Local (LAN)</h1>
+                    <h1 id="subtitulo"><i class="fi fi-tr-checklist-task-budget"></i> Orçamento para Implementação de
+                        Rede Local (LAN)</h1>
                     <div class="goals-grid">
 
                         <p class="goals-text2">
                             1. <strong id="title-o">Levantamento e Projecto:</strong> <br> <br>
-                            <strong class="budget">Visita técnica e levantamento de necessidades:</strong> 150.000 AKZ <br>
-                            <strong class="budget">Projecto de rede (topologia e especificações):</strong> 200.000 AKZ <br>
+                            <strong class="budget">Visita técnica e levantamento de necessidades:</strong> 150.000 AKZ
+                            <br>
+                            <strong class="budget">Projecto de rede (topologia e especificações):</strong> 200.000 AKZ
+                            <br>
                             <b>Subtotal:</b> 350.000 AKZ <br>
                         </p>
 
                         <p class="goals-text2">
                             2. <strong id="title-o">Equipamentos de Rede:</strong> <br> <br>
-                            <strong class="budget">Switch Gerenciável 24 portas Gigabit</strong> (ex: TP-Link, Cisco SMB): 1 x 350.000 AKZ = 350.000 AKZ <br>
-                            <strong class="budget">Roteador empresarial</strong> com suporte a VPN (ex: MikroTik, TP-Link): 1 x 250.000 AKZ = 250.000 AKZ <br>
-                            <strong class="budget">Access Points Wi-Fi 6</strong> para cobertura total (ex: Ubiquiti, TP-Link): 3 x 200.000 AKZ = 600.000 AKZ <br>
-                             <strong class="budget">Rack de 9U com ventilação e bandejas:</strong> 1 x 300.000 AKZ = 300.000 AKZ <br>
-                            <strong class="budget">Patch Panel 24 portas + Organizadores:</strong> 1 x 150.000 AKZ = 150.000 AKZ <br>
+                            <strong class="budget">Switch Gerenciável 24 portas Gigabit</strong> (ex: TP-Link, Cisco
+                            SMB): 1 x 350.000 AKZ = 350.000 AKZ <br>
+                            <strong class="budget">Roteador empresarial</strong> com suporte a VPN (ex: MikroTik,
+                            TP-Link): 1 x 250.000 AKZ = 250.000 AKZ <br>
+                            <strong class="budget">Access Points Wi-Fi 6</strong> para cobertura total (ex: Ubiquiti,
+                            TP-Link): 3 x 200.000 AKZ = 600.000 AKZ <br>
+                            <strong class="budget">Rack de 9U com ventilação e bandejas:</strong> 1 x 300.000 AKZ =
+                            300.000 AKZ <br>
+                            <strong class="budget">Patch Panel 24 portas + Organizadores:</strong> 1 x 150.000 AKZ =
+                            150.000 AKZ <br>
                             <b>Subtotal:</b> 1.650.000 AKZ
                         </p>
 
                         <p class="goals-text2">
                             3. <strong id="title-o">Materiais:</strong> <br> <br>
-                            <strong class="budget">Cabo de Rede Cat6 (rolo 305m):</strong>  2 x 180.000 AKZ = 360.000 AKZ <br>
-                            <strong class="budget">Conectores RJ45, tomadas de parede, caixas de embutir:</strong> 200.000 AKZ <br>
-                            <strong class="budget">Dutos e canaletas (PVC):</strong>  250.000 AKZ <br>
+                            <strong class="budget">Cabo de Rede Cat6 (rolo 305m):</strong> 2 x 180.000 AKZ = 360.000 AKZ
+                            <br>
+                            <strong class="budget">Conectores RJ45, tomadas de parede, caixas de embutir:</strong>
+                            200.000 AKZ <br>
+                            <strong class="budget">Dutos e canaletas (PVC):</strong> 250.000 AKZ <br>
                             <b>Subtotal:</b> 810.000 AKZ <br>
                         </p>
 
                         <p class="goals-text2">
                             4. <strong id="title-o">Mão-de-Obra:</strong> <br> <br>
-                            <strong class="budget">Instalação e passagem de cabos (para 20 pontos de rede):</strong> 20 x 25.000 AKZ = 500.000 AKZ <br>
-                            <strong class="budget">Configuração de equipamentos (roteador, switch, APs):</strong> 300.000 AKZ <br>
+                            <strong class="budget">Instalação e passagem de cabos (para 20 pontos de rede):</strong> 20
+                            x 25.000 AKZ = 500.000 AKZ <br>
+                            <strong class="budget">Configuração de equipamentos (roteador, switch, APs):</strong>
+                            300.000 AKZ <br>
                             <strong class="budget">Teste e certificação dos pontos de rede:</strong> 200.000 AKZ <br>
                             <b>Subtotal:</b> 1.000.000 AKZ <br>
                         </p>
 
                         <p class="goals-text2">
                             5.<strong id="title-o">Serviços Adicionais (Opcional)</strong> <br> <br>
-                            <strong class="budget">Configuração de servidor de ficheiros simples (NAS ou Windows Server):</strong> 500.000 AKZ <br>
+                            <strong class="budget">Configuração de servidor de ficheiros simples (NAS ou Windows
+                                Server):</strong> 500.000 AKZ <br>
                             <strong class="budget">Contrato de manutenção anual:</strong> <br>
-                            <b>Subtotal (opcional):</b> 1.100.000 AKZ 
+                            <b>Subtotal (opcional):</b> 1.100.000 AKZ
                         </p> <br>
 
                         <p class="goals-text-r">
                             <b id="resumo">Resumo:</b>
                             Item Valor (AKZ)
-                            Levantamento e Projecto 350.000
-                            Equipamentos de Rede 1.650.000
-                            Materiais 810.000
-                            Mão-de-Obra 1.000.000
-                            Total Geral (Sem adicionais) 3.810.000
-                            Total com Serviços Adicionais 4.910.000
+                            Levantamento e Projecto 350.000 <br> <br>   
+                            Equipamentos de Rede 1.650.000 <br> 
+                            Materiais 810.000 <br>  
+                            Mão-de-Obra 1.000.000 <br>  
+                            Total Geral (Sem adicionais) 3.810.000 <br> 
+                            Total com Serviços Adicionais 4.910.000 <br>    
                             Observações:
                             Orçamento válido por 30 dias.
-                            Equipamentos possuem garantia de 1 ano.
+                            Equipamentos possuem garantia de 1 ano. <br>
                             Os preços podem variar conforme o câmbio USD/AKZ
                             O pagamento será feito em duas fases: 50% na adjudicação e 50% na entrega.
                         </p>
@@ -323,13 +336,17 @@
             <h1><i class="fi fi-tr-hourglass-end"></i> Conclusão</h1>
             <div class="text-bg3">
                 <p>
+                    Este projeto visa o planejamento e implantação de uma rede LAN para um escritório de advocacia
+                    moderno, garantindo comunicação eficiente, segurança de dados e conectividade entre os
+                    departamentos. <br> <br>
+
                     Um plano de rede local bem projetado vai muito além de conectar computadores. <br>
                     Ele garante segurança, desempenho, e prepara o escritório para crescer de forma ordenada. <br>
                     Com equipamentos apropriados, medidas de segurança sólidas e funcionários bem treinados, <br>
                     o escritório de advocacia estará apto a atuar com eficiência no ambiente digital, <br>
                     mantendo a confidencialidade e a integridade das informações dos clientes. <br>
                     Com esta infraestrutura, o escritório terá uma rede eficiente, <br>
-                    segura e preparada para o crescimento futuro, atendendo todas as demandas jurídicas com agilidade.
+                    segura e preparada para o crescimento futuro, atendendo todas as demandas jurídicas com agilidade. 
                 </p>
                 <img src="assets/images/image.png" alt="Sucesso" class="carousel-image" loading="lazy">
             </div>
