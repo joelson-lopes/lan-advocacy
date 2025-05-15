@@ -9,7 +9,6 @@
 }
 
 ::selection {
-  padding: 5px;
   background-color: var(--novacor1);
   color: white;
 }
@@ -40,7 +39,6 @@ header {
   background-image: linear-gradient(to right, #1F3B73, #d4d7dd);
   padding: 10px;
   margin-bottom: 5%;
-
   position: sticky;
   top: -30%;
 }
@@ -90,7 +88,6 @@ nav {
   text-transform: capitalize;
   text-decoration: none;
 }
-
 .navbar-list-a1:hover {
   color: #f0f0f0;
   transition: all ease 0.5s;
@@ -181,6 +178,14 @@ strong {
   color: var(--novacor1);
 }
 
+.mini-title1 {
+  color: green;
+  text-align: left;
+}
+.mini-title2 {
+  color: red;
+  text-align: left;
+}
 .mini-title {
   color: var(--novacor1);
   text-align: left;
@@ -298,7 +303,6 @@ details {
   text-align: center;
 }
 
-
 #objetivos,
 #topologias,
 #equipamentos,
@@ -327,7 +331,6 @@ details {
   width: 50vw;
   height: auto;
 }
-
  .goals-grid2 ul{
     display: flex;
   flex-direction: column;
