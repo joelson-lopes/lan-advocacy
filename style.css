@@ -376,6 +376,8 @@ details {
   height: auto;
   max-width: 500px;
   border-radius: 5px;
+
+    animation: flutuar 3s infinite ease-in-out;
 }
 
 .carousel-image {
@@ -383,6 +385,8 @@ details {
   height: auto;
   max-width: 500px;
   border-radius: 5px;
+
+    animation: flutuar 3s infinite ease-in-out;
 }
 
 .topology {
@@ -395,6 +399,8 @@ details {
   width: 40vw;
   height: auto;
   max-width: 500px;
+
+  animation: flutuar 3s infinite ease-in-out;
 }
 
 .material-symbols-outlined {
@@ -467,6 +473,11 @@ footer {
   }
 }
 
+@keyframes flutuar {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0); } 
+}
 
 @media (max-width: 768px) {
   header {
