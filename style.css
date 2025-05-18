@@ -376,6 +376,8 @@ details {
   height: auto;
   max-width: 500px;
   border-radius: 5px;
+  cursor: pointer;
+  animation: flutuar 3s infinite ease-in-out;
 }
 
 .carousel-image {
@@ -383,17 +385,14 @@ details {
   height: auto;
   max-width: 500px;
   border-radius: 5px;
+  cursor: pointer;
+  animation: flutuar 3s infinite ease-in-out;
 }
 
 .bg1-image {
   width: 40vw;
   height: auto;
   max-width: 500px;
-}
-
-.bg1-image:hover,
-.carousel-image:hover,
-.carousel-Lan:hover{
   cursor: pointer;
   animation: flutuar 3s infinite ease-in-out;
 }
@@ -402,6 +401,10 @@ details {
   width: 20vw;
   height: auto;
   max-width: 500px;
+}
+
+.abbr{
+  text-decoration: none;
 }
 
 .material-symbols-outlined {
